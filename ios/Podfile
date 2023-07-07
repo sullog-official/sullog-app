@@ -1,3 +1,12 @@
+# Disable Flipper by default
+if !ENV['NO_FLIPPER']
+  ENV['NO_FLIPPER'] = "1"
+end
+# Disable Hermes by default
+if !ENV['USE_HERMES']
+  ENV['USE_HERMES'] = "0"
+end
+
 # Resolve react_native_pods.rb with node to allow for hoisting
 require Pod::Executable.execute_command('node', ['-p',
   'require.resolve(
