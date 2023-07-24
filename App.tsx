@@ -2,7 +2,7 @@ import React from 'react';
 import WebView from 'react-native-webview';
 
 const App = () => {
-  const uri = 'http://localhost:3000/';
+  const uri = 'https://sullog-client.vercel.app/';
 
   return <WebView source={{uri}} />;
 };
