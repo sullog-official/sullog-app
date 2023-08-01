@@ -5771,10 +5771,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-esbuild@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-esbuild/-/react-native-esbuild-0.5.0.tgz#81ba427008933b34a7c68ae2d7c711202bdb7ca2"
-  integrity sha512-V6MFHEypycr3Dfv3rlSldWykcY2MAqkKZNyiFthbXcd0glxHnNmesFDNrq01vgztdMzbVNVRGjA39zan2VUEBg==
+react-native-esbuild@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-esbuild/-/react-native-esbuild-0.6.0.tgz#9cd81ffa01b6fcf934f506d387b8d2153391e505"
+  integrity sha512-HoxR6ebl3Fi0NMrJXF1c6SOHEJNG9rqu/84iIqiRWmwtT0KwQBzyZJ78orZOG0N1pQRqYSY3RNEPcnHSS139vg==
   dependencies:
     "@babel/code-frame" "^7.16.7"
     "@babel/plugin-syntax-flow" "^7.17.12"
