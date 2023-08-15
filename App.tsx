@@ -1,10 +1,15 @@
-import React, {createRef} from 'react';
+import React, {createRef, useEffect} from 'react';
+import SplashScreen from 'react-native-splash-screen';
 import WebView from 'react-native-webview';
 
 const App = () => {
   const uri = 'https://sullog-client.vercel.app/';
 
   let webViewRef = createRef<WebView>();
+
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
 
   const debugging = `
   const consoleLog = (type, log) => window.ReactNativeWebView.postMessage(JSON.stringify({'type': 'Console', 'data': {'type': type, 'log': log}}));
