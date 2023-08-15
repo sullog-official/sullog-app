@@ -6,7 +6,7 @@
     "android": "react-native run-android --no-packager",
     "ios": "react-native run-ios --no-packager --simulator=\"iPhone 14 Pro (16.0)\"",
     "lint": "eslint .",
-    "start": "react-native esbuild-start",
+    "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
